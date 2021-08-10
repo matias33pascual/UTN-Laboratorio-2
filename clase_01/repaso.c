@@ -1,14 +1,45 @@
+/**
+
+CLASE 1:
+        * REVISION DE CONTENIDOS DE LABORATORIO 1
+        * FUNCIONES y MODULARIZACION
+        * VARIABLES LOCALES A LA FUNCION
+        * DIAGRAMA DE ESTRUCTURAS: cohesion y acoplamiento
+        * PUNTEROS
+        * PUNTEROS DOBLES
+        * ESTRUCTURAS DE DATOS ESTATICAS y DINAMICAS
+        * ARREGLOS PARALEOS
+        * AREGLOS DE REGISTROS
+        * ALGORITMOS DE ORDENACION:
+            . busqueda de un elemento
+            . busqueda del mayor
+            . busqueda del menor
+            . ordenamiento por seleccion
+            . ordenamiento por insercion
+*/
+
+/// ------------------------------------------------------------
+
+#include <time.h>
+
+//{ para utilizar en la explicacion de acoplamiento
+int variableGlobal = 10;
+//}
+
+/// ------------------------------------------------------------
+
 /** REPASO DE FUNCIONES */
 
 //{ TIPOS DE FUNCIONES
+
 /// sin retorno y sin parametros
-void saludar()
+void funcionSaludar()
 {
     printf("hola mundo! \n");
 }
 
 /// con retorno y sin parametros
-int devolverRandom()
+int funcionDevolverRandom()
 {
     srand(time(NULL));
 
@@ -18,7 +49,7 @@ int devolverRandom()
 }
 
 /// sin retorno y con parametros
-void mostrarSuma(int numeroA, int numeroB)
+void funcionMostrarSuma(int numeroA, int numeroB)
 {
     int resultado = numeroA + numeroB;
 
@@ -26,15 +57,17 @@ void mostrarSuma(int numeroA, int numeroB)
 }
 
 /// con retorno y con parametros
-int devolverSuma(int numeroA, int numeroB)
+int funcionDevolverSuma(int numeroA, int numeroB)
 {
-   return numeroA + numeroB;
+    return numeroA + numeroB;
 }
 //}
 
 /// ------------------------------------------------------------
 
 /** REPASO DE PUNTEROS */
+void repasandoPunteros()
+{
 
 /// EJEMPLOS DEL USO DE PUNTEROS
 
@@ -42,7 +75,7 @@ int devolverSuma(int numeroA, int numeroB)
     int* puntero;       /// declaro un puntero
 
     puntero = &variableA;   /// le asigno a puntero la direccion de memoria de
-                            /// la variableA
+    /// la variableA
 
     /// mostrando por pantalla...
     printf("&puntero: %X \n", &puntero); /// direccion de memoria de puntero
@@ -57,41 +90,21 @@ int devolverSuma(int numeroA, int numeroB)
     printf("valor en la direccion a la que apunta puntero: %d", *puntero);
 
 /// ------------------------------------------------------------
+}
 
 /** FUNCIONES y PUNTEROS */
-void cambiarValor(int* variable)
+void cambiandoValor(int* variable)
 {
     *variable = 10;
 }
 
-void mostrarDatos(int* variable)
+/// PUNTERO DOBLE
+void mostrandoDatos(int* variable)
 {
-    int* puntero = variable;
+    printf("&variable: %X \n", &variable); /// direccion de memoria de variableA
 
-    printf("&puntero: %X \n", &puntero); /// direccion de memoria de puntero
-
-    printf("valor de puntero: %X \n", puntero); /// valor del puntero
-
-    printf("&variableA: %X \n", &variable); /// direccion de memoria de variableA
-
-    printf("valor variableA: %d \n", variable); /// valor de la variableA
-
-    /// valor que se encuentra en la direccion a la que apunta el puntero
-    printf("valor en la direccion a la que apunta puntero: %d", *puntero);
+    printf("valor variable: %d \n\n", variable); /// valor de la variableA
 
     /// valor que se encuentra en la direccion a la que apunta la variable
-    printf("valor en la direccion a la que apunta puntero: %d", *variable);
+    printf("valor en la direccion a la que apunta variable: %d \n", *variable);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

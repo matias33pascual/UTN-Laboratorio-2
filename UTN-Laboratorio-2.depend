@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1628604727 source:d:\_matias\proyectos\utn\dandoclasesc\mi repositorio\utn-laboratorio-2\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1628604420 source:d:\_matias\proyectos\utn\dandoclasesc\mi repositorio\utn-laboratorio-2\clase_01\repaso.c
+	<time.h>
+
+1628603991 source:d:\_matias\proyectos\utn\dandoclasesc\mi repositorio\utn-laboratorio-2\clase_01\repaso_arreglos.c
+	<stdio.h>
+	<string.h>
+
+1628603675 source:d:\_matias\proyectos\utn\dandoclasesc\mi repositorio\utn-laboratorio-2\repaso_cohesion_acoplamiento.c
+	<stdio.h>
+
+1628603991 source:d:\_matias\proyectos\utn\dandoclasesc\mi repositorio\utn-laboratorio-2\repaso_arreglos.c
+	<stdio.h>
+	<string.h>
+
+1628603675 source:d:\_matias\proyectos\utn\dandoclasesc\mi repositorio\utn-laboratorio-2\clase_01\repaso_cohesion_acoplamiento.c
+	<stdio.h>
+
