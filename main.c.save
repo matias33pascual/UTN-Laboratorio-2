@@ -1,0 +1,27 @@
+/**
+UTN
+Tecnicatura Universitaria en Programacion
+Laboratorio de computacion 1
+Programacion 1
+Prof. Matias Pascual
+
+CLASE 1:
+        * REVISION DE CONTENIDOS DE LABORATORIO 1
+        * FUNCIONES y MODULARIZACION
+        * DIAGRAMA DE ESTRUCTURAS: cohesion y acoplamiento
+        * PUNTEROS
+        * PUNTEROS DOBLES
+        * ESTRUCTURAS DE DATOS ESTATICAS y DINAMICAS
+        * ARREGLOS PARALEOS
+        * A
+
+*/
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    printf("Hello world!\n");
+    return 0;
+}
