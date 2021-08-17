@@ -31,10 +31,28 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="main.c">
+		<Unit filename="clase_01/ejercicioResuelto.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="repaso.c">
+		<Unit filename="clase_01/puntero_doble.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="clase_01/repaso.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="clase_01/repaso_arreglos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="clase_01/repaso_cohesion_acoplamiento.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="clase_02/ejemplosRecursividad.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="clase_02/recursividad.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions>

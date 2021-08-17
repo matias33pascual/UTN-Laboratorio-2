@@ -12,6 +12,5 @@ void punteroDoble()
     printf("valor almacenado donde apunta puntero A: %i \n\n", *pVariableA);
 
     printf("PUNTERO DOBLE \n\n");
-
-    // para hacer y pensar con la clase
+    printf("el valor almacenado a donde apunta el puntero que apunto", **ppVariableA);
 }

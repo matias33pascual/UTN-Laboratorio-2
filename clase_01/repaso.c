@@ -1,5 +1,4 @@
 /**
-
 CLASE 1:
         * REVISION DE CONTENIDOS DE LABORATORIO 1
         * FUNCIONES y MODULARIZACION
@@ -61,6 +60,7 @@ int funcionDevolverSuma(int numeroA, int numeroB)
 {
     return numeroA + numeroB;
 }
+
 //}
 
 /// ------------------------------------------------------------
@@ -69,7 +69,7 @@ int funcionDevolverSuma(int numeroA, int numeroB)
 void repasandoPunteros()
 {
 
-/// EJEMPLOS DEL USO DE PUNTEROS
+    /// EJEMPLOS DEL USO DE PUNTEROS
 
     int variableA = 20; /// declaro una variable
     int* puntero;       /// declaro un puntero
@@ -94,7 +94,7 @@ void repasandoPunteros()
 
 /** FUNCIONES y PUNTEROS */
 void cambiandoValor(int* variable)
-{
+{///int* variable = &a
     *variable = 10;
 }
 
