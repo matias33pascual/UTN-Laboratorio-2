@@ -9,31 +9,15 @@ Prof. Matias Pascual
 #include <stdio.h>
 #include <stdlib.h>
 
+#include <stdio.h>
+#include <stdlib.h>
+
 int main()
 {
-    /// arreglo de 10 elementos
-    /*
-    int arreglo[] =
-    {
-        0,1,2,3,4,5,6,7,8,9
-    };
-    */
+    //printf("factorial: %i \n", clase_03_factorial(5));
 
-    //clase_02_mostrarArreglo2(arreglo, 10, 0);
-    //const int numero = clase_02_sumatoria(3);
+    //int arreglo[] = {1,2,3,4,5,6};
+    //printf("menor: %i \n", clase_03_menorRecursivo(arreglo, 0, 6));
 
-    //const int numero = clase_02_factorial(5);
-    //printf("%i", numero);
-
-    return 0;
+    //printf("6 ^ 2 = %i \n", clase_03_potencia(6, 2));
 }
-
-
-
-
-
-
-
-
-
-

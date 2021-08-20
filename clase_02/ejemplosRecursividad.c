@@ -2,6 +2,46 @@
 
 /// SUMATORIA y FACTORIAL
 
+
+int sumatoria(int n, int i)
+{
+    int resultado = 0;
+    if (i <= n)
+    {
+        i++;
+        resultado = i + sumatoria(n, i);
+    }
+    else
+    {
+        resultado = 0;
+    }
+
+    return resultado;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /// FACTORIAL: primera version. Yendo hacia adelante ->
 int clase_02_factorial(int numero)
 {
@@ -88,7 +128,7 @@ int _sumatoriaAux2(int valorActual, int numero)
 /// ---------------------------------------------------------------
 
 /// FACTORIAL: primera version. Yendo hacia adelante ->
-int clase_02_factorial(int numero)
+int clase_02_factorial2b(int numero)
 {
     if (numero == 0)
         return 1;
@@ -97,7 +137,7 @@ int clase_02_factorial(int numero)
 }
 
 /// PRIMERA VERSION
-int _clase_02_factorialAux(int numeroActual, int numeroFinal)
+int _clase_02_factorialAuxb(int numeroActual, int numeroFinal)
 {
     int resultado;
 
@@ -114,7 +154,7 @@ int _clase_02_factorialAux(int numeroActual, int numeroFinal)
 }
 
 /// SEGUNDA VERSION: vamos hasta el final y volvemos <-
-int clase_02_factorial2 (int x)
+int clase_02_factorial2ba (int x)
 {
     int rta;
     if(x==0)
@@ -129,7 +169,7 @@ int clase_02_factorial2 (int x)
 }
 
 /// VERSION FINAL
-int clase_02_factorial3(int numero)
+int clase_02_factorial3ab(int numero)
 {
     if(numero == 0)
         return 1;

@@ -52,6 +52,9 @@
 		<Unit filename="clase_02/recursividad.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="clase_03/clase_03_ejercicios_resueltos.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

@@ -34,9 +34,11 @@
 1628635138 source:d:\_matias\proyectos\utn\utn-laboratorio-2\clase_01\repaso_cohesion_acoplamiento.c
 	<stdio.h>
 
-1629161436 source:d:\_matias\proyectos\utn\utn-laboratorio-2\clase_02\recursividad.c
+1629237676 source:d:\_matias\proyectos\utn\utn-laboratorio-2\clase_02\recursividad.c
 
-1629164375 source:d:\_matias\proyectos\utn\utn-laboratorio-2\main.c
+1629495253 source:d:\_matias\proyectos\utn\utn-laboratorio-2\main.c
+	<stdio.h>
+	<stdlib.h>
 	<stdio.h>
 	<stdlib.h>
 
@@ -44,5 +46,9 @@
 	<stdio.h>
 	<stdlib.h>
 
-1629164536 source:d:\_matias\proyectos\utn\utn-laboratorio-2\clase_02\ejemplosrecursividad.c
+1629243940 source:d:\_matias\proyectos\utn\utn-laboratorio-2\clase_02\ejemplosrecursividad.c
+
+1629494775 source:d:\_matias\proyectos\utn\utn-laboratorio-2\clase_03\clase_03_ejercicios_resueltos.c
+
+1629495238 source:d:\_matias\proyectos\utn\utn-laboratorio-2\clase_03\clase_03_ejemplo.c
 
