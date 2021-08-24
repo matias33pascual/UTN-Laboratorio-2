@@ -43,7 +43,6 @@ int clase_03_potencia(int x, int factor)
     return rta;
 }
 
-///7 Buscar el menor elemento de un arreglo en forma recursiva
 int clase_03_menorRecursivo(int A[], int i, int cant)
 {
     int m;
@@ -63,3 +62,16 @@ int clase_03_menorRecursivo(int A[], int i, int cant)
     }
     return m;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+

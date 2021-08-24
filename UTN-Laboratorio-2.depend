@@ -36,9 +36,7 @@
 
 1629237676 source:d:\_matias\proyectos\utn\utn-laboratorio-2\clase_02\recursividad.c
 
-1629495253 source:d:\_matias\proyectos\utn\utn-laboratorio-2\main.c
-	<stdio.h>
-	<stdlib.h>
+1629756203 source:d:\_matias\proyectos\utn\utn-laboratorio-2\main.c
 	<stdio.h>
 	<stdlib.h>
 
@@ -48,7 +46,15 @@
 
 1629243940 source:d:\_matias\proyectos\utn\utn-laboratorio-2\clase_02\ejemplosrecursividad.c
 
-1629494775 source:d:\_matias\proyectos\utn\utn-laboratorio-2\clase_03\clase_03_ejercicios_resueltos.c
+1629506830 source:d:\_matias\proyectos\utn\utn-laboratorio-2\clase_03\clase_03_ejercicios_resueltos.c
 
 1629495238 source:d:\_matias\proyectos\utn\utn-laboratorio-2\clase_03\clase_03_ejemplo.c
+
+1629763771 source:d:\_matias\proyectos\utn\utn-laboratorio-2\clase_04\clase_04.c
+	<stdlib.h>
+	<stdio.h>
+
+1629739043 source:d:\_matias\proyectos\utn\utn-laboratorio-2\tools\tools.c
+	<stdio.h>
+	<stdlib.h>
 
