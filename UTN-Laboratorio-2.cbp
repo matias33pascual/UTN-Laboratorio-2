@@ -31,37 +31,39 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="clase_01/ejercicioResuelto.c">
+		<Unit filename="librerias/listaEnlazada.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="clase_01/puntero_doble.c">
+		<Unit filename="librerias/listaEnlazada.h" />
+		<Unit filename="librerias/persona.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="clase_01/repaso.c">
+		<Unit filename="librerias/persona.h" />
+		<Unit filename="listaSimple/listaSimple_ejemplos.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="clase_01/repaso_arreglos.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="clase_01/repaso_cohesion_acoplamiento.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="clase_02/ejemplosRecursividad.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="clase_02/recursividad.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="clase_03/clase_03_ejercicios_resueltos.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="clase_04/clase_04.c">
+		<Unit filename="listaSimple/listaSimple_ejercicios.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="tools/tools.c">
+		<Unit filename="recursividad/recursividad.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="recursividad/recursividad_ejemplo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="recursividad/recursividad_ejercicios_resueltos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="repaso/repaso.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="repaso/repaso_arreglos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="repaso/repaso_ejercicioResuelto.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions>

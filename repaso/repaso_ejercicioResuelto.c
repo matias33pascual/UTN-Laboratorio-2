@@ -13,8 +13,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// function definition
-void fMayor(int arreglo[], int dimension, int* maximo)
+void clase_01_fMayor(int arreglo[], int dimension, int* maximo)
 {
     *maximo = arreglo[0];
 
@@ -36,7 +35,7 @@ void fMenor(int arreglo[], int dimension, int* menor)
     }
 }
 
-void fPromedio(int arreglo[], int dimension, float* promedio)
+void clase_01_fPromedio(int arreglo[], int dimension, float* promedio)
 {
     int suma = 0;
 
@@ -49,7 +48,7 @@ void fPromedio(int arreglo[], int dimension, float* promedio)
 }
 
 
-void max_min_prom(int arreglo[], int dimension, int* maximo, int* minimo, float* promedio)
+void clase_01_max_min_prom(int arreglo[], int dimension, int* maximo, int* minimo, float* promedio)
 {
     /**
         fMayor(arreglo, dimension, maximo);

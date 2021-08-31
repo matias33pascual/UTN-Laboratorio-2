@@ -1,60 +1,86 @@
 # depslib dependency file v1.0
-1628814541 source:d:\_matias\proyectos\utn\dandoclasesc\mi repositorio\utn-laboratorio-2\main.c
+1630195820 source:d:\_matias\proyectos\utn\utn-laboratorio-2\clase_01\clase_01.c
 	<stdio.h>
 	<stdlib.h>
 
-1628632961 source:d:\_matias\proyectos\utn\dandoclasesc\mi repositorio\utn-laboratorio-2\clase_01\repaso.c
+1630025291 source:d:\_matias\proyectos\utn\utn-laboratorio-2\clase_01\ejercicioresuelto.c
+	<stdio.h>
+	<stdlib.h>
+
+1630195872 source:d:\_matias\proyectos\utn\utn-laboratorio-2\clase_01\repaso.c
 	<time.h>
 
-1628636787 source:d:\_matias\proyectos\utn\dandoclasesc\mi repositorio\utn-laboratorio-2\clase_01\repaso_arreglos.c
+1630195857 source:d:\_matias\proyectos\utn\utn-laboratorio-2\clase_01\repaso_arreglos.c
 	<stdio.h>
 	<string.h>
 
-1628603675 source:d:\_matias\proyectos\utn\dandoclasesc\mi repositorio\utn-laboratorio-2\repaso_cohesion_acoplamiento.c
-	<stdio.h>
-
-1628603991 source:d:\_matias\proyectos\utn\dandoclasesc\mi repositorio\utn-laboratorio-2\repaso_arreglos.c
-	<stdio.h>
-	<string.h>
-
-1628635138 source:d:\_matias\proyectos\utn\dandoclasesc\mi repositorio\utn-laboratorio-2\clase_01\repaso_cohesion_acoplamiento.c
-	<stdio.h>
-
-1628634364 source:d:\_matias\proyectos\utn\dandoclasesc\mi repositorio\utn-laboratorio-2\clase_01\puntero_doble.c
-
-1628634364 source:d:\_matias\proyectos\utn\utn-laboratorio-2\clase_01\puntero_doble.c
-
-1628632961 source:d:\_matias\proyectos\utn\utn-laboratorio-2\clase_01\repaso.c
-	<time.h>
-
-1628636787 source:d:\_matias\proyectos\utn\utn-laboratorio-2\clase_01\repaso_arreglos.c
-	<stdio.h>
-	<string.h>
-
-1628635138 source:d:\_matias\proyectos\utn\utn-laboratorio-2\clase_01\repaso_cohesion_acoplamiento.c
-	<stdio.h>
-
-1629237676 source:d:\_matias\proyectos\utn\utn-laboratorio-2\clase_02\recursividad.c
-
-1629756203 source:d:\_matias\proyectos\utn\utn-laboratorio-2\main.c
-	<stdio.h>
-	<stdlib.h>
-
-1629161201 source:d:\_matias\proyectos\utn\utn-laboratorio-2\clase_01\ejercicioresuelto.c
-	<stdio.h>
-	<stdlib.h>
+1630025740 source:d:\_matias\proyectos\utn\utn-laboratorio-2\clase_01\repaso_cohesion_acoplamiento.c
 
 1629243940 source:d:\_matias\proyectos\utn\utn-laboratorio-2\clase_02\ejemplosrecursividad.c
 
+1629237676 source:d:\_matias\proyectos\utn\utn-laboratorio-2\clase_02\recursividad.c
+
 1629506830 source:d:\_matias\proyectos\utn\utn-laboratorio-2\clase_03\clase_03_ejercicios_resueltos.c
 
-1629495238 source:d:\_matias\proyectos\utn\utn-laboratorio-2\clase_03\clase_03_ejemplo.c
-
-1629763771 source:d:\_matias\proyectos\utn\utn-laboratorio-2\clase_04\clase_04.c
+1630436334 source:d:\_matias\proyectos\utn\utn-laboratorio-2\clase_04\clase_04.c
 	<stdlib.h>
 	<stdio.h>
+	<string.h>
 
-1629739043 source:d:\_matias\proyectos\utn\utn-laboratorio-2\tools\tools.c
+1630437844 source:d:\_matias\proyectos\utn\utn-laboratorio-2\clase_05\clase_05.c
 	<stdio.h>
 	<stdlib.h>
+	<string.h>
+
+1630437486 source:d:\_matias\proyectos\utn\utn-laboratorio-2\clase_06\clase_06.c
+	"../librerias/listaEnlazada.h"
+
+1567723893 d:\_matias\proyectos\utn\utn-laboratorio-2\librerias\listaenlazada.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"persona.h"
+
+1567701056 d:\_matias\proyectos\utn\utn-laboratorio-2\librerias\persona.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1630438476 source:d:\_matias\proyectos\utn\utn-laboratorio-2\librerias\listaenlazada.c
+	"listaEnlazada.h"
+
+1567701876 source:d:\_matias\proyectos\utn\utn-laboratorio-2\librerias\persona.c
+	"persona.h"
+
+1630439243 source:d:\_matias\proyectos\utn\utn-laboratorio-2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"librerias/listaEnlazada.h"
+	"librerias/persona.h"
+
+1629237676 source:d:\_matias\proyectos\utn\utn-laboratorio-2\recursividad\recursividad.c
+
+1629243940 source:d:\_matias\proyectos\utn\utn-laboratorio-2\recursividad\recursividad_ejemplo.c
+
+1629506830 source:d:\_matias\proyectos\utn\utn-laboratorio-2\recursividad\recursividad_ejercicios_resueltos.c
+
+1630195820 source:d:\_matias\proyectos\utn\utn-laboratorio-2\repaso\repaso.c
+	<stdio.h>
+	<stdlib.h>
+
+1630195857 source:d:\_matias\proyectos\utn\utn-laboratorio-2\repaso\repaso_arreglos.c
+	<stdio.h>
+	<string.h>
+
+1630438245 source:d:\_matias\proyectos\utn\utn-laboratorio-2\repaso\repaso_ejercicioresuelto.c
+	<stdio.h>
+	<stdlib.h>
+
+1630438673 source:d:\_matias\proyectos\utn\utn-laboratorio-2\listasimple\listasimple_ejemplos.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1630439152 source:d:\_matias\proyectos\utn\utn-laboratorio-2\listasimple\listasimple_ejerciciointercalar.c
+	"../librerias/listaEnlazada.h"
 

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-void ejemplo_arreglosDinamicos()
+void _clase_01_ejemplo_arreglosDinamicos()
 {
     /// su tamaño es definido en tiempo de ejecucion
 
@@ -66,7 +66,7 @@ void ejemplo_arreglosDinamicos()
     free(arregloDinamico);
 }
 
-void ejemplo_arreglosParalelos()
+void _clase_01_ejemplo_arreglosParalelos()
 {
     /**
         Para una persona que tiene:
