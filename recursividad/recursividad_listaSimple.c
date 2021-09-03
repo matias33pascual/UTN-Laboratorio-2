@@ -1,39 +1,18 @@
 #include "../librerias/listaEnlazada.h"
 #include "../librerias/persona.h"
 
-void mostrarRecursivo(nodo* iterador)
+void mostrarRecursivo(nodo* seg)
 {
-    if(iterador != NULL)
+    if(seg!= NULL)
     {
-        mostrarNodo(iterador);
-        mostrarRecursivo(iterador->siguiente);
+        mostrarNodo(seg);
+        mostrarRecursivo(seg->siguiente);
     }
-}
-
-nodo* insertarFinalRecursivo(nodo* iterador, nodo* nuevoNodo)
-{
-    if(iterador == NULL)
-    {
-        iterador = nuevoNodo;
-    }
-    else if(iterador->siguiente == NULL)
-    {
-        iterador->siguiente = nuevoNodo;
-    }
-    else
-    {
-        insertarFinalRecursivo(iterador->siguiente, nuevoNodo);
-    }
-
-    return iterador;
 }
 
 nodo* buscarUltimoRecursivo(nodo* iterador)
 {
-    if(iterador == NULL)
-        printf("la lista esta vacia");
-
-    else if(iterador->siguiente == NULL)
+    if(iterador->siguiente == NULL)
         return iterador;
 
     else
@@ -43,7 +22,7 @@ nodo* buscarUltimoRecursivo(nodo* iterador)
 void ejemplo_listaSimpleRecursiva()
 {
     nodo* lista = inicLista();
-    mostrarNodo(buscarUltimoRecursivo(lista));
+    //mostrarNodo(buscarUltimoRecursivo(lista));
 
     lista = agregarPpio(lista, crearNodo((persona){"nombre", 10}));
     lista = agregarPpio(lista, crearNodo((persona){"nombre1", 20}));

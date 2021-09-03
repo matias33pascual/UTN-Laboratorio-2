@@ -5,7 +5,8 @@
 
 int main()
 {
-    ejemplo_archivosListaSimple();
+    ejemplo_listaSimpleRecursiva();
+
 
     return 0;
 }
