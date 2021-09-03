@@ -31,6 +31,9 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="archivos/ejemplo_archivos.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="librerias/listaEnlazada.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -55,6 +58,9 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="recursividad/recursividad_ejercicios_resueltos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="recursividad/recursividad_listaSimple.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="repaso/repaso.c">

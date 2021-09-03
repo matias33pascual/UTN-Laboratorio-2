@@ -46,13 +46,13 @@
 	<stdlib.h>
 	<string.h>
 
-1630438476 source:d:\_matias\proyectos\utn\utn-laboratorio-2\librerias\listaenlazada.c
+1630700043 source:d:\_matias\proyectos\utn\utn-laboratorio-2\librerias\listaenlazada.c
 	"listaEnlazada.h"
 
 1567701876 source:d:\_matias\proyectos\utn\utn-laboratorio-2\librerias\persona.c
 	"persona.h"
 
-1630439243 source:d:\_matias\proyectos\utn\utn-laboratorio-2\main.c
+1630700157 source:d:\_matias\proyectos\utn\utn-laboratorio-2\main.c
 	<stdio.h>
 	<stdlib.h>
 	"librerias/listaEnlazada.h"
@@ -83,4 +83,11 @@
 
 1630439152 source:d:\_matias\proyectos\utn\utn-laboratorio-2\listasimple\listasimple_ejerciciointercalar.c
 	"../librerias/listaEnlazada.h"
+
+1630445993 source:d:\_matias\proyectos\utn\utn-laboratorio-2\listasimple\listasimple_ejercicios.c
+	"../librerias/listaEnlazada.h"
+
+1630700078 source:d:\_matias\proyectos\utn\utn-laboratorio-2\recursividad\recursividad_listasimple.c
+	"../librerias/listaEnlazada.h"
+	"../librerias/persona.h"
 

@@ -8,7 +8,6 @@ nodo * invertirLista(nodo * lista);
 
 nodo * intercalarListas(nodo *lista_A, nodo *lista_B, nodo *lista_C)
 {
-    // al final de todo debo hacer listaA y listaB = NULL??
     nodo * aux;
 
     while((lista_A!=NULL)&&(lista_B!=NULL))

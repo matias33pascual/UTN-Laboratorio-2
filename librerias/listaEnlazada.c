@@ -12,6 +12,19 @@ nodo * crearNodo(persona dato)
     aux->siguiente = NULL;
     return aux;
 }
+/*
+int main()
+{
+    nodo* lista = inicLista();
+    nodo* nuevoNodo = crearNodo(10);
+    nodo* nuevoNodo2 = crearNodo(20);
+    nodo* nuevoNodo3 = crearNodo(30);
+
+    lista = agregarPpio(lista, nuevoNodo);
+    lista = agregarPpio(lista, nuevoNodo2);
+    lista = agregarPpio(lista, nuevoNodo3);
+}
+*/
 
 nodo * agregarPpio(nodo * lista, nodo * nuevoNodo)
 {
