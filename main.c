@@ -5,7 +5,6 @@
 
 int main()
 {
-    ejemplo_listaSimpleRecursiva();
 
 
     return 0;

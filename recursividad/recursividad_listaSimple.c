@@ -1,3 +1,4 @@
+/*
 #include "../librerias/listaEnlazada.h"
 #include "../librerias/persona.h"
 
@@ -29,7 +30,8 @@ void ejemplo_listaSimpleRecursiva()
     lista = agregarPpio(lista, crearNodo((persona){"nombre2", 30}));
     lista = agregarPpio(lista, crearNodo((persona){"nombre3", 40}));
 
-    lista = insertarFinalRecursivo(lista, crearNodo((persona){"ultimo", 60}));
+//    lista = insertarFinalRecursivo(lista, crearNodo((persona){"ultimo", 60}));
 
     mostrarRecursivo(lista);
 }
+*/

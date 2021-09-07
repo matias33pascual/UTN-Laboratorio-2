@@ -1,5 +1,6 @@
 #include "listaEnlazada.h"
 
+/*
 nodo * inicLista()
 {
     return NULL;
@@ -120,7 +121,7 @@ nodo * eliminaPrimerNodo(nodo * lista)
 /** //////////////////////////////////////////////////*/
 /// funciones que usan la estructura de persona
 /** //////////////////////////////////////////////////*/
-
+/*
 void mostrarNodo(nodo * aux)
 {
     mostrarPersona(aux->dato);
@@ -217,3 +218,4 @@ nodo * agregarEnOrden(nodo * lista, nodo * nuevoNodo)
     }
     return lista;
 }
+*/

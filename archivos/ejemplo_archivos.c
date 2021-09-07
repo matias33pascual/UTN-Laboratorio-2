@@ -1,3 +1,4 @@
+/*
 #include "../librerias/listaEnlazada.h"
 #include "../librerias/persona.h"
 
@@ -58,3 +59,4 @@ int ejemplo_archivosListaSimple()
 
     return 0;
 }
+*/
