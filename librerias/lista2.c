@@ -1,11 +1,11 @@
 #include "lista2.h"
 
-nodo2 * inicLista()
+nodo2 * inicLista2()
 {
     return NULL;
 }
 
-nodo2 * crearNodo(int dato)
+nodo2 * crearNodo2(int dato)
 {
     nodo2* aux= (nodo2 *)malloc(sizeof(nodo2));
     aux->dato=dato;
@@ -63,7 +63,7 @@ nodo2 * insertarNodo(nodo2 * lista, nodo2 * nuevoNodo)
     {
         lista=nuevoNodo;
     }
-    else if (nuevoNodo->dato < lista->dato)
+    else if (nuevoNodo->dato< lista->dato)
     {
         lista=agregarAlPrincipio(lista, nuevoNodo);
     }
@@ -138,7 +138,7 @@ nodo2 * borrarNodo(nodo2 * lista, int dato)
 
 }
 
-int verPrimero (nodo2 * lista)
+int verPrimero2 (nodo2 * lista)
 {
     int rta=0;
 
@@ -163,12 +163,12 @@ nodo2 * borrarPrimero (nodo2 * lista)
 }
 
 
-void mostrarNodo(nodo2 * aux)
+void mostrarNodo2(nodo2 * aux)
 {
     printf("[%d] ", aux->dato);
 }
 
-void recorrerYmostrar(nodo2 * lista)
+void recorrerYmostrar2(nodo2 * lista)
 {
     nodo2 * seg = lista;
     while (seg != NULL)

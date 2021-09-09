@@ -38,18 +38,18 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="librerias/Fila.h" />
+		<Unit filename="librerias/Pila.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="librerias/Pila.h" />
+		<Unit filename="librerias/lista.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="librerias/lista.h" />
 		<Unit filename="librerias/lista2.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="librerias/lista2.h" />
-		<Unit filename="librerias/listaEnlazada.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="librerias/listaEnlazada.h" />
-		<Unit filename="librerias/persona.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="librerias/persona.h" />
 		<Unit filename="listaSimple/listaSimple_ejemplos.c">
 			<Option compilerVar="CC" />
 		</Unit>
