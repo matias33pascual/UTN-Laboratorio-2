@@ -6,6 +6,8 @@
 
 #include "lista.h"
 
+#define Pila nodo *
+
 /// utilizamos la libreria de funciones basicas del TDA Lista,
 /// modificada para almacenar un dato entero unicamente
 
@@ -13,7 +15,6 @@
 
 /// definimos nuevo tipo de dato Pila (para enmascarar el puntero a un nodo)
 
-#define Pila nodo *
 
 void inicPila (Pila * pila);
 

@@ -2,14 +2,14 @@
 
 void inicFila(Fila* fila)
 {
-    fila->inicio=inicLista();
-    fila->fin=inicLista();
+    fila->inicio=inicLista2();
+    fila->fin=inicLista2();
 }
 
 void mostrar(Fila* fila)
 {
     printf("inicio ");
-    recorrerYmostrar(fila->inicio);
+    recorrerYmostrar2(fila->inicio);
     printf(" fin\n");
 }
 

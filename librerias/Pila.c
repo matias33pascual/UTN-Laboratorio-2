@@ -26,9 +26,8 @@ int tope (Pila * pila)
     return rta;
 }
 
-int desapilar (Pila * pila)
+int desapilar (Pila* pila)
 {
-
     int rta;
     if((*pila)!=NULL)
     {
@@ -51,12 +50,10 @@ void leerPila (Pila * pila)
     (*pila)=agregarPpio(*pila,aux);
 }
 
-
 void mostrarPila (Pila * pila)
 {
     //nodo * seg = (*pila);
     printf("\nTope ");
     recorrerYmostrar(*pila);
     printf("Base\n");
-
 }

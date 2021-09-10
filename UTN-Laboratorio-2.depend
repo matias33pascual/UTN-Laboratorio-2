@@ -52,7 +52,7 @@
 1567701876 source:d:\_matias\proyectos\utn\utn-laboratorio-2\librerias\persona.c
 	"persona.h"
 
-1631216896 source:d:\_matias\proyectos\utn\utn-laboratorio-2\main.c
+1631217732 source:d:\_matias\proyectos\utn\utn-laboratorio-2\main.c
 	<stdio.h>
 	<stdlib.h>
 
@@ -93,7 +93,7 @@
 	"../librerias/listaEnlazada.h"
 	"../librerias/persona.h"
 
-1568664400 source:d:\_matias\proyectos\utn\utn-laboratorio-2\librerias\fila.c
+1631231574 source:d:\_matias\proyectos\utn\utn-laboratorio-2\librerias\fila.c
 	"Fila.h"
 
 1568664400 d:\_matias\proyectos\utn\utn-laboratorio-2\librerias\fila.h
@@ -105,20 +105,20 @@
 	<stdio.h>
 	<stdlib.h>
 
-1631216858 source:d:\_matias\proyectos\utn\utn-laboratorio-2\librerias\lista2.c
+1631231592 source:d:\_matias\proyectos\utn\utn-laboratorio-2\librerias\lista2.c
 	"lista2.h"
 
-1572032754 source:d:\_matias\proyectos\utn\utn-laboratorio-2\librerias\lista.c
+1631217732 source:d:\_matias\proyectos\utn\utn-laboratorio-2\librerias\lista.c
 	"lista.h"
 
-1505866140 d:\_matias\proyectos\utn\utn-laboratorio-2\librerias\lista.h
+1631217732 d:\_matias\proyectos\utn\utn-laboratorio-2\librerias\lista.h
 	<stdio.h>
 	<stdlib.h>
 
-1631216872 source:d:\_matias\proyectos\utn\utn-laboratorio-2\librerias\pila.c
+1631231080 source:d:\_matias\proyectos\utn\utn-laboratorio-2\librerias\pila.c
 	"Pila.h"
 
-1475095574 d:\_matias\proyectos\utn\utn-laboratorio-2\librerias\pila.h
+1631230436 d:\_matias\proyectos\utn\utn-laboratorio-2\librerias\pila.h
 	<stdio.h>
 	<stdlib.h>
 	"lista.h"

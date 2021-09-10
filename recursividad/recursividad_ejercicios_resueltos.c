@@ -1,4 +1,5 @@
 // funcion promedio recursivo de un arreglo
+#include "../librerias/lista.h"
 
 float clase_03_promedioRecursivo(int A[], int validos, int i)
 {
@@ -61,6 +62,51 @@ int clase_03_menorRecursivo(int A[], int i, int cant)
         }
     }
     return m;
+}
+
+/// TRABAJO PRACTICO 4.3 ---------------
+
+/*
+1. Recorrer una lista y mostrarla en forma invertida.
+*/
+
+void mostrarListaInvertidaR(nodo * lista)
+{
+    if(lista!=NULL)
+    {
+        mostrarListaInvertidaR(lista->siguiente);
+        mostrar(lista);
+    }
+}
+
+/*
+2. Sumar los elementos de una lista.
+*/
+
+int sumaContenidoListaR(nodo *lista)
+{
+    int rta=0;
+    if(lista!=NULL)
+    {
+        rta=lista->dato+sumaContenidoListaR(lista->siguiente);
+    }
+    return rta;
+}
+
+/*
+3. Mostrar los elementos de una lista ubicados en un lugar par.
+*/
+
+void muestraPosParR (nodo *lista, int pos)
+{
+    if(lista!=NULL)
+    {
+        if(pos%2==0)
+        {
+            mostrar(lista);
+        }
+        muestraPosParR(lista->siguiente, pos+1);
+    }
 }
 
 

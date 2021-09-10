@@ -173,7 +173,7 @@ void recorrerYmostrar2(nodo2 * lista)
     nodo2 * seg = lista;
     while (seg != NULL)
     {
-        mostrarNodo(seg);
+        mostrarNodo2(seg);
         seg= seg->ste;
     }
 }
