@@ -52,7 +52,7 @@
 1567701876 source:d:\_matias\proyectos\utn\utn-laboratorio-2\librerias\persona.c
 	"persona.h"
 
-1631217732 source:d:\_matias\proyectos\utn\utn-laboratorio-2\main.c
+1631320871 source:d:\_matias\proyectos\utn\utn-laboratorio-2\main.c
 	<stdio.h>
 	<stdlib.h>
 
@@ -60,7 +60,8 @@
 
 1629243940 source:d:\_matias\proyectos\utn\utn-laboratorio-2\recursividad\recursividad_ejemplo.c
 
-1629506830 source:d:\_matias\proyectos\utn\utn-laboratorio-2\recursividad\recursividad_ejercicios_resueltos.c
+1631319711 source:d:\_matias\proyectos\utn\utn-laboratorio-2\recursividad\recursividad_ejercicios_resueltos.c
+	"../librerias/lista.h"
 
 1630195820 source:d:\_matias\proyectos\utn\utn-laboratorio-2\repaso\repaso.c
 	<stdio.h>

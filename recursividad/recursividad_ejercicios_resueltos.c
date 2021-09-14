@@ -86,10 +86,12 @@ void mostrarListaInvertidaR(nodo * lista)
 int sumaContenidoListaR(nodo *lista)
 {
     int rta=0;
+
     if(lista!=NULL)
     {
         rta=lista->dato+sumaContenidoListaR(lista->siguiente);
     }
+
     return rta;
 }
 
@@ -109,7 +111,60 @@ void muestraPosParR (nodo *lista, int pos)
     }
 }
 
+/*
+4. Invertir una lista cambiando los vínculos.
+*/
 
+nodo * invertirRecursivo (nodo * lista)
+{
+    /*
+        si esta vacia, retorno NULL
+        si tiene un solo nodo, retorna lista
+        si tiene mas de un nodo, tomo el 1er nodo, invierto lo que sigue y
+        lo agrego al final de la lista invertida
+
+        nos vamos a ayudar con la funcion agregar al final
+
+        primero tengo que desvicular al nodo de la lista
+        OJO no perder las referencias...
+    */
+
+    nodo * primero=NULL;
+
+    if(lista!=NULL)
+    {
+        primero=lista;  // guardo el primero nodo
+        lista=lista->siguiente;   // avanzo en la lista
+        primero->siguiente=NULL;  // desvinculo el primero nodo
+        lista=agregarFinal(invertirRecursivo(lista),primero);
+    }
+    return lista;
+
+}
+
+/*
+5. Borrar un nodo de una lista.
+*/
+
+nodo * borrarNodoR( nodo * lista, int dato)
+{
+    nodo * aBorrar =NULL;
+
+    if(lista!=NULL)
+    {
+        if(lista->dato==dato)
+        {
+            aBorrar=lista;
+            lista=lista->siguiente;
+            free(aBorrar);
+        }
+        else
+        {
+            lista->siguiente=borrarNodoR(lista->siguiente,dato);
+        }
+    }
+    return lista;
+}
 
 
 

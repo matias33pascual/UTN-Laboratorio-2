@@ -1,5 +1,6 @@
 /*
-#include "../librerias/listaEnlazada.h"
+
+#include "../librerias/lista.h"
 
 nodo * intercalarListas(nodo *lista_A, nodo *lista_B, nodo *lista_C);
 void   SubprogramaIntercalarDosListas(nodo *listaA, nodo *listaB, nodo *listaC);
@@ -129,4 +130,5 @@ nodo * invertirLista(nodo * lista)
 
     return listaInvertida;
 }
+
 */
