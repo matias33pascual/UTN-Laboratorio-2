@@ -52,15 +52,16 @@
 1567701876 source:d:\_matias\proyectos\utn\utn-laboratorio-2\librerias\persona.c
 	"persona.h"
 
-1631320871 source:d:\_matias\proyectos\utn\utn-laboratorio-2\main.c
+1631922410 source:d:\_matias\proyectos\utn\utn-laboratorio-2\main.c
 	<stdio.h>
 	<stdlib.h>
+	"librerias/Pila.h"
 
 1629237676 source:d:\_matias\proyectos\utn\utn-laboratorio-2\recursividad\recursividad.c
 
 1629243940 source:d:\_matias\proyectos\utn\utn-laboratorio-2\recursividad\recursividad_ejemplo.c
 
-1631319711 source:d:\_matias\proyectos\utn\utn-laboratorio-2\recursividad\recursividad_ejercicios_resueltos.c
+1631661692 source:d:\_matias\proyectos\utn\utn-laboratorio-2\recursividad\recursividad_ejercicios_resueltos.c
 	"../librerias/lista.h"
 
 1630195820 source:d:\_matias\proyectos\utn\utn-laboratorio-2\repaso\repaso.c
@@ -83,8 +84,8 @@
 1630439152 source:d:\_matias\proyectos\utn\utn-laboratorio-2\listasimple\listasimple_ejerciciointercalar.c
 	"../librerias/listaEnlazada.h"
 
-1631045076 source:d:\_matias\proyectos\utn\utn-laboratorio-2\listasimple\listasimple_ejercicios.c
-	"../librerias/listaEnlazada.h"
+1631564050 source:d:\_matias\proyectos\utn\utn-laboratorio-2\listasimple\listasimple_ejercicios.c
+	"../librerias/lista.h"
 
 1631045083 source:d:\_matias\proyectos\utn\utn-laboratorio-2\recursividad\recursividad_listasimple.c
 	"../librerias/listaEnlazada.h"
