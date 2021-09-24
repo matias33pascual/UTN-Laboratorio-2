@@ -40,11 +40,3 @@ void clase_02_mostrarArreglo3(int arreglo[], int validos, int i)
         */
     }
 }
-
-
-
-
-
-
-
-

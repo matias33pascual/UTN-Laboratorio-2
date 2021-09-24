@@ -41,7 +41,6 @@ nodo * buscarUltimo(nodo * lista)
 }
 
 nodo * buscarNodo(int dato, nodo * lista)
-
 {
     nodo * seg;
     seg = lista;
@@ -54,7 +53,7 @@ nodo * buscarNodo(int dato, nodo * lista)
     return seg;
 }
 
-nodo * agregarFinal(nodo * lista, nodo * nuevoNodo)
+nodo * agregarFinal(nodo* lista, nodo * nuevoNodo)
 {
     if(lista == NULL)
     {

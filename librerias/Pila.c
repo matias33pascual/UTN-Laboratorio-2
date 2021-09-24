@@ -16,7 +16,7 @@ int pilavacia (Pila* pila)
     return rta;
 }
 
-int tope (Pila * pila)
+int tope (Pila* pila)
 {
     int rta=0;
     if((*pila)!=NULL)

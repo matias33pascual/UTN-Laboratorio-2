@@ -53,7 +53,7 @@ typedef struct
     int DNI;
 } stPersona;
 
-void pasarInformacion_archivoArreglo(char* nombreArchivo, int arreglo[], int dimension)
+void pasarInformacion_archivoArreglo(char* nombreArchivo, stPersona arreglo[], int dimension)
 {
     FILE* fArchivo = fopen(nombreArchivo, "rb");
 
@@ -80,14 +80,17 @@ void pasarInformacion_archivoArreglo(char* nombreArchivo, int arreglo[], int dim
 
     En el main llamariamos a la funcion de la siguiente manera:
 
-    nodo* lista = inicLista();
-    FILE* archivo = fopen("archivo.bin", "rb");
-
-    if(arhivo)
+    int main()
     {
-        pasarInformacion_archivoLista(FILE* archivo, nodo* lista);
+        nodo* lista = inicLista();
+        FILE* archivo = fopen("archivo.bin", "rb");
 
-        fclose(archivo);
+        if(arhivo)
+        {
+            pasarInformacion_archivoLista(archivo, lista);
+
+            fclose(archivo);
+        }
     }
 
 */
@@ -110,6 +113,6 @@ void pasarInformacion_archivoPila(FILE* archivo, Pila* pila)
 
     while(fread(&persona, sizeof(persona), 1, archivo) > 0)
     {
-        apilar(pila, persona);
+        apilar(pila, persona.DNI);
     }
 }

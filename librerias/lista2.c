@@ -7,7 +7,7 @@ nodo2 * inicLista2()
 
 nodo2 * crearNodo2(int dato)
 {
-    nodo2* aux= (nodo2 *)malloc(sizeof(nodo2));
+    nodo2* aux = (nodo2 *)malloc(sizeof(nodo2));
     aux->dato=dato;
     aux->ante=NULL;
     aux->ste=NULL;

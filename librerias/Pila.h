@@ -15,7 +15,6 @@
 
 /// definimos nuevo tipo de dato Pila (para enmascarar el puntero a un nodo)
 
-
 void inicPila (Pila * pila);
 
 int pilavacia (Pila* pila);

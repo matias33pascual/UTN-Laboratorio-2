@@ -11,7 +11,6 @@ float clase_03_promedioRecursivo(int A[], int validos, int i)
     }
 
     return prom;
-
 }
 
 /// 1 Calcular el factorial de un número en forma recursiva
