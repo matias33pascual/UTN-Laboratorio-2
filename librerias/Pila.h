@@ -17,7 +17,7 @@
 
 void inicPila (Pila * pila);
 
-int pilavacia (Pila* pila);
+int pilavacia (Pila * pila);
 
 int tope (Pila * pila);
 

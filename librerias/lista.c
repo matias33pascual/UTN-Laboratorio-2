@@ -10,18 +10,17 @@ nodo * crearNodo(int dato)
     nodo * aux = (nodo*)malloc(sizeof(nodo));
     aux->dato = dato;
     aux->siguiente = NULL;
+
     return aux;
 }
 
 nodo * agregarPpio(nodo * lista, nodo * nuevoNodo)
 {
-
     if(lista == NULL)
     {
         lista = nuevoNodo;
     }
     else
-
     {
         nuevoNodo->siguiente = lista;
         lista = nuevoNodo;

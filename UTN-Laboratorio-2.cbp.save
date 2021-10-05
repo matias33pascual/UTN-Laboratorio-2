@@ -31,6 +31,9 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="arboles/arbol_ejemplo.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="archivos/ejemplo_archivos.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -42,6 +45,7 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="librerias/Pila.h" />
+		<Unit filename="librerias/arbol.h" />
 		<Unit filename="librerias/lista.c">
 			<Option compilerVar="CC" />
 		</Unit>

@@ -59,6 +59,9 @@
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="pasarInformacion/pasarInformacion.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="recursividad/recursividad.c">
 			<Option compilerVar="CC" />
 		</Unit>

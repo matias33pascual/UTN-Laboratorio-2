@@ -52,16 +52,15 @@
 1567701876 source:d:\_matias\proyectos\utn\utn-laboratorio-2\librerias\persona.c
 	"persona.h"
 
-1631922410 source:d:\_matias\proyectos\utn\utn-laboratorio-2\main.c
+1633466002 source:d:\_matias\proyectos\utn\utn-laboratorio-2\main.c
 	<stdio.h>
 	<stdlib.h>
-	"librerias/Pila.h"
 
-1629237676 source:d:\_matias\proyectos\utn\utn-laboratorio-2\recursividad\recursividad.c
+1632525962 source:d:\_matias\proyectos\utn\utn-laboratorio-2\recursividad\recursividad.c
 
 1629243940 source:d:\_matias\proyectos\utn\utn-laboratorio-2\recursividad\recursividad_ejemplo.c
 
-1631661692 source:d:\_matias\proyectos\utn\utn-laboratorio-2\recursividad\recursividad_ejercicios_resueltos.c
+1632442751 source:d:\_matias\proyectos\utn\utn-laboratorio-2\recursividad\recursividad_ejercicios_resueltos.c
 	"../librerias/lista.h"
 
 1630195820 source:d:\_matias\proyectos\utn\utn-laboratorio-2\repaso\repaso.c
@@ -87,9 +86,7 @@
 1631564050 source:d:\_matias\proyectos\utn\utn-laboratorio-2\listasimple\listasimple_ejercicios.c
 	"../librerias/lista.h"
 
-1631045083 source:d:\_matias\proyectos\utn\utn-laboratorio-2\recursividad\recursividad_listasimple.c
-	"../librerias/listaEnlazada.h"
-	"../librerias/persona.h"
+1632531933 source:d:\_matias\proyectos\utn\utn-laboratorio-2\recursividad\recursividad_listasimple.c
 
 1631045068 source:d:\_matias\proyectos\utn\utn-laboratorio-2\archivos\ejemplo_archivos.c
 	"../librerias/listaEnlazada.h"
@@ -107,21 +104,31 @@
 	<stdio.h>
 	<stdlib.h>
 
-1631231592 source:d:\_matias\proyectos\utn\utn-laboratorio-2\librerias\lista2.c
+1632442749 source:d:\_matias\proyectos\utn\utn-laboratorio-2\librerias\lista2.c
 	"lista2.h"
 
-1631217732 source:d:\_matias\proyectos\utn\utn-laboratorio-2\librerias\lista.c
+1632527582 source:d:\_matias\proyectos\utn\utn-laboratorio-2\librerias\lista.c
 	"lista.h"
 
 1631217732 d:\_matias\proyectos\utn\utn-laboratorio-2\librerias\lista.h
 	<stdio.h>
 	<stdlib.h>
 
-1631231080 source:d:\_matias\proyectos\utn\utn-laboratorio-2\librerias\pila.c
+1632445517 source:d:\_matias\proyectos\utn\utn-laboratorio-2\librerias\pila.c
 	"Pila.h"
 
-1632445549 d:\_matias\proyectos\utn\utn-laboratorio-2\librerias\pila.h
+1632526559 d:\_matias\proyectos\utn\utn-laboratorio-2\librerias\pila.h
 	<stdio.h>
 	<stdlib.h>
 	"lista.h"
+
+1632440276 source:d:\_matias\proyectos\utn\utn-laboratorio-2\pasarinformacion\pasarinformacion.c
+	"../librerias/pila.h"
+	"../librerias/lista.h"
+
+1633466113 source:d:\_matias\proyectos\utn\utn-laboratorio-2\arboles\arbol_ejemplo.c
+	"../librerias/arbol.h"
+	<stdio.h>
+
+1633466096 d:\_matias\proyectos\utn\utn-laboratorio-2\librerias\arbol.h
 

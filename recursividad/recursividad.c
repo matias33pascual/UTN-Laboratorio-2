@@ -23,6 +23,7 @@ void clase_02_mostrarArreglo2(int arreglo[], int validos, int i)
 {
     if (i != validos)
     {
+        /// expresion de la solucion trivial
         printf("[%i]", arreglo[i++]);
         clase_02_mostrarArreglo2(arreglo, validos, i);
     }
