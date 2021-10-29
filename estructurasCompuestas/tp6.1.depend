@@ -1,0 +1,89 @@
+# depslib dependency file v1.0
+1571841433 source:d:\pruebas\tp6.1\lista.c
+	"lista.h"
+
+1571781892 d:\pruebas\tp6.1\lista.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1571834113 source:d:\pruebas\tp6.1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+	"utilidades.h"
+	"registroArchivo.h"
+	"lista.h"
+
+1571670228 d:\pruebas\tp6.1\utilidades.h
+	<stdlib.h>
+	<stdio.h>
+
+1571832493 d:\pruebas\tp6.1\registroarchivo.h
+	<stdlib.h>
+	<stdio.h>
+	<windows.h>
+	<conio.h>
+	"utilidades.h"
+
+1571670223 source:d:\pruebas\tp6.1\utilidades.c
+	"utilidades.h"
+
+1571831914 source:d:\pruebas\tp6.1\registroarchivo.c
+	"registroArchivo.h"
+
+1571670223 source:c:\users\gustavo\documents\01 - catedras\03 - programacion 2 - laboratorio 2\trabajos practicos resoluciones\tp6.1\utilidades.c
+	"utilidades.h"
+
+1571670228 c:\users\gustavo\documents\01 - catedras\03 - programacion 2 - laboratorio 2\trabajos practicos resoluciones\tp6.1\utilidades.h
+	<stdlib.h>
+	<stdio.h>
+
+1571918666 source:c:\users\gustavo\documents\01 - catedras\03 - programacion 2 - laboratorio 2\trabajos practicos resoluciones\tp6.1\lista.c
+	"lista.h"
+
+1571781892 c:\users\gustavo\documents\01 - catedras\03 - programacion 2 - laboratorio 2\trabajos practicos resoluciones\tp6.1\lista.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1635460776 source:d:\_matias\trabajo\utn\laboratorio 2\guias\soluciones\tp6.1 - ec sistema de notas\tp6.1 - ec sistema de notas\lista.c
+	"utilidades.h"
+	"lista.h"
+
+1635460666 d:\_matias\trabajo\utn\laboratorio 2\guias\soluciones\tp6.1 - ec sistema de notas\tp6.1 - ec sistema de notas\lista.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1635460801 source:d:\_matias\trabajo\utn\laboratorio 2\guias\soluciones\tp6.1 - ec sistema de notas\tp6.1 - ec sistema de notas\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+	"utilidades.h"
+	"registroArchivo.c"
+	"lista.h"
+
+1571670228 d:\_matias\trabajo\utn\laboratorio 2\guias\soluciones\tp6.1 - ec sistema de notas\tp6.1 - ec sistema de notas\utilidades.h
+	<stdlib.h>
+	<stdio.h>
+
+1635460890 d:\_matias\trabajo\utn\laboratorio 2\guias\soluciones\tp6.1 - ec sistema de notas\tp6.1 - ec sistema de notas\registroarchivo.h
+	<stdlib.h>
+	<stdio.h>
+	<windows.h>
+	<conio.h>
+	"utilidades.h"
+
+1571919130 source:d:\_matias\trabajo\utn\laboratorio 2\guias\soluciones\tp6.1 - ec sistema de notas\tp6.1 - ec sistema de notas\registroarchivo.c
+	"registroArchivo.h"
+
+1571670223 source:d:\_matias\trabajo\utn\laboratorio 2\guias\soluciones\tp6.1 - ec sistema de notas\tp6.1 - ec sistema de notas\utilidades.c
+	"utilidades.h"
+
+1635460879 d:\_matias\trabajo\utn\laboratorio 2\guias\soluciones\tp6.1 - ec sistema de notas\tp6.1 - ec sistema de notas\registroarchivo.c
+	"registroArchivo.h"
+	"utilidades.h"
+

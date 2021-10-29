@@ -52,7 +52,7 @@
 1567701876 source:d:\_matias\proyectos\utn\utn-laboratorio-2\librerias\persona.c
 	"persona.h"
 
-1633466002 source:d:\_matias\proyectos\utn\utn-laboratorio-2\main.c
+1633478833 source:d:\_matias\proyectos\utn\utn-laboratorio-2\main.c
 	<stdio.h>
 	<stdlib.h>
 
@@ -126,9 +126,11 @@
 	"../librerias/pila.h"
 	"../librerias/lista.h"
 
-1633466113 source:d:\_matias\proyectos\utn\utn-laboratorio-2\arboles\arbol_ejemplo.c
+1633469617 source:d:\_matias\proyectos\utn\utn-laboratorio-2\arboles\arbol_ejemplo.c
 	"../librerias/arbol.h"
 	<stdio.h>
 
-1633466096 d:\_matias\proyectos\utn\utn-laboratorio-2\librerias\arbol.h
+1633470297 d:\_matias\proyectos\utn\utn-laboratorio-2\librerias\arbol.h
+	<stdio.h>
+	<stdlib.h>
 

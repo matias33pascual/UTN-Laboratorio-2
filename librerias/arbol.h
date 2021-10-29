@@ -19,9 +19,10 @@ nodoArbol * inicArbol()
 
 nodoArbol * crearNodoArbol(int dato)
 {
-    nodoArbol * aux = (nodoArbol *) malloc(sizeof(nodoArbol));
+    nodoArbol * aux = (nodoArbol*) malloc(sizeof(nodoArbol));
 
     aux->dato=dato;
+
     aux->der=NULL;
     aux->izq=NULL;
 

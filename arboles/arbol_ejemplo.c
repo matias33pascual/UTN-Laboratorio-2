@@ -8,6 +8,7 @@ void arbol_ejemplo1()
     arbol = insertar(arbol, 10);
     arbol = insertar(arbol, 20);
     arbol = insertar(arbol, 15);
+    arbol = insertar(arbol, 22);
 
     printf("inorder: ");
     inorder(arbol);
