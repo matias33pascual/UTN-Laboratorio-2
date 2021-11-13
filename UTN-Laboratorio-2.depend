@@ -52,9 +52,10 @@
 1567701876 source:d:\_matias\proyectos\utn\utn-laboratorio-2\librerias\persona.c
 	"persona.h"
 
-1633478833 source:d:\_matias\proyectos\utn\utn-laboratorio-2\main.c
+1636764488 source:d:\_matias\proyectos\utn\utn-laboratorio-2\main.c
 	<stdio.h>
 	<stdlib.h>
+	<string.h>
 
 1632525962 source:d:\_matias\proyectos\utn\utn-laboratorio-2\recursividad\recursividad.c
 

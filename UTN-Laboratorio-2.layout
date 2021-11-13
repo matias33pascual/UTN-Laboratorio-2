@@ -2,6 +2,16 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
+	<File name="listaSimple\listaSimple_ejemplos.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1304" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="arboles\arbol_ejemplo.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="135" topLine="2" />
+		</Cursor>
+	</File>
 	<File name="recursividad\recursividad.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="619" topLine="14" />
@@ -9,27 +19,7 @@
 	</File>
 	<File name="main.c" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="289" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="recursividad\recursividad_ejemplo.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="137" topLine="150" />
-		</Cursor>
-	</File>
-	<File name="librerias\lista.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="168" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="librerias\Pila.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="201" topLine="12" />
-		</Cursor>
-	</File>
-	<File name="librerias\lista2.c" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="264" topLine="6" />
+			<Cursor1 position="865" topLine="78" />
 		</Cursor>
 	</File>
 	<File name="librerias\lista.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
@@ -37,29 +27,9 @@
 			<Cursor1 position="97" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="librerias\Pila.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+	<File name="librerias\Pila.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="515" topLine="3" />
-		</Cursor>
-	</File>
-	<File name="archivos\ejemplo_archivos.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1216" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="listaSimple\listaSimple_ejercicios.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="6" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="recursividad\recursividad_listaSimple.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="452" topLine="5" />
-		</Cursor>
-	</File>
-	<File name="pasarInformacion\pasarInformacion.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="296" topLine="0" />
+			<Cursor1 position="201" topLine="12" />
 		</Cursor>
 	</File>
 	<File name="librerias\Fila.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
@@ -67,9 +37,34 @@
 			<Cursor1 position="1135" topLine="6" />
 		</Cursor>
 	</File>
+	<File name="librerias\lista.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="168" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="listaSimple\listaSimple_ejercicios.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="librerias\arbol.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="461" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="recursividad\recursividad_ejemplo.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="137" topLine="150" />
+		</Cursor>
+	</File>
 	<File name="librerias\lista2.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="202" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="pasarInformacion\pasarInformacion.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="296" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="librerias\Fila.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
@@ -77,14 +72,29 @@
 			<Cursor1 position="183" topLine="3" />
 		</Cursor>
 	</File>
-	<File name="listaSimple\listaSimple_ejemplos.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+	<File name="librerias\Pila.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1304" topLine="0" />
+			<Cursor1 position="515" topLine="3" />
 		</Cursor>
 	</File>
 	<File name="recursividad\recursividad_ejercicios_resueltos.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="3178" topLine="140" />
+		</Cursor>
+	</File>
+	<File name="recursividad\recursividad_listaSimple.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="452" topLine="5" />
+		</Cursor>
+	</File>
+	<File name="archivos\ejemplo_archivos.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1216" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="librerias\lista2.c" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="264" topLine="6" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>
